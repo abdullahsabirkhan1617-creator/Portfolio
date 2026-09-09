@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#222831"/>
+      <stop offset="1" stop-color="#171B22"/>
+    </linearGradient>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M 80 0 L 0 0 0 80" fill="none" stroke="rgba(241,241,238,0.05)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect width="800" height="1000" fill="url(#grid)"/>
+  <circle cx="400" cy="400" r="120" fill="none" stroke="rgba(40,120,212,0.35)" stroke-width="1.5"/>
+  <circle cx="400" cy="400" r="70" fill="rgba(40,120,212,0.08)"/>
+  <rect x="160" y="600" width="480" height="1" fill="rgba(241,241,238,0.15)"/>
+  <text x="400" y="660" font-family="Consolas, monospace" font-size="26" letter-spacing="8" fill="rgba(241,241,238,0.55)" text-anchor="middle">PORTRAIT</text>
+  <text x="400" y="700" font-family="Consolas, monospace" font-size="15" letter-spacing="2" fill="rgba(167,170,176,0.6)" text-anchor="middle">Replace: public/images/portrait-placeholder.svg</text>
+</svg>
